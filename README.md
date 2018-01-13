@@ -20,7 +20,7 @@ Test
 ## Deploying web site
 
 You can use the `deploySite.sh` or `deploySite.bat` script
-Without any profile, the site will be deployed to `https://maven.apache.org/enforcer-archives/enforcer-${project.version}`
+without any profile, the site will be deployed to `https://maven.apache.org/enforcer-archives/enforcer-${project.version}`
 
 ```
 sh ./deploySite.sh -Preporting
