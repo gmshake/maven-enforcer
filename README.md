@@ -1,7 +1,7 @@
 # Maven Enforcer Plugin
 
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven-enforcer.svg?label=License)][license]
-[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.plugins/maven-enforcer.svg?label=Maven%20Central)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.maven.plugins%22%20a%3A%22maven-enforcer-plugin%22)
+[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.plugins/maven-enforcer-plugin.svg?label=Maven%20Central)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.maven.plugins%22%20a%3A%22maven-enforcer-plugin%22)
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/builds.apache.org/view/M-R/view/Maven/job/maven-box/job/maven-enforcer/job/master.svg?style=flat-square)][build]
 [![Jenkins tests](https://img.shields.io/jenkins/t/https/builds.apache.org/view/M-R/view/Maven/job/maven-box/job/maven-enforcer/job/master.svg?style=flat-square)][test-results]
 
