@@ -38,14 +38,14 @@ Where can I get the latest release?
 -----------------------------------
 You can download source and binaries from our [download page][enforcer-download]
 
-You can get the Maven plugin via the following coordinates from central:
+You can get the Maven Enforcer plugin via the following coordinates from central:
 
 ```xml
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-enforcer-plugin</artifactId>
   <version>3.0.0-M1</version>
-</dependency>
+</plugin>
 ```
 
 
