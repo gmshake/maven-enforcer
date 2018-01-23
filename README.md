@@ -65,11 +65,12 @@ There are some guidelines which will make applying PRs easier for us:
 If you plan to contribute on a regular basis, please consider filing a [contributor license agreement](https://www.apache.org/licenses/#clas).
 You can learn more about contributing via GitHub in our [contribution guidelines](CONTRIBUTING.md).
 
+
 License
 -------
-This code is under the [Apache Licence v2](https://www.apache.org/licenses/LICENSE-2.0).
+This code is under the [Apache Licence v2][license]
 
-See the `NOTICE.txt` file for required notices and attributions.
+See the `NOTICE` file for required notices and attributions.
 
 
 Donations
@@ -83,7 +84,7 @@ License
 
 
 [home]: http://maven.apache.org/enforcer/maven-enforcer-plugin
-[license]: https://www.apache.org/licenses/LICENSE-2.0.html
+[license]: https://www.apache.org/licenses/LICENSE-2.0
 [build]: https://builds.apache.org/view/M-R/view/Maven/job/maven-box/job/maven-enforcer/job/master/
 [test-results]: https://builds.apache.org/view/M-R/view/Maven/job/maven-box/job/maven-enforcer/job/master/lastCompletedBuild/testReport/
 [build-status]: https://img.shields.io/jenkins/s/https/builds.apache.org/view/M-R/view/Maven/job/maven-box/job/maven-enforcer/job/master.svg?style=flat-square
