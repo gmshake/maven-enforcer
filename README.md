@@ -48,44 +48,34 @@ You can get the Maven Enforcer plugin via the following coordinates from central
 </plugin>
 ```
 
+Contributing
+------------
 
-Deploying web site
-------------------
+We accept Pull Requests via GitHub. The [developer mailing list][dev-ml-list] is the
+main channel of communication for contributors.  
+There are some guidelines which will make applying PRs easier for us:
++ No tabs! Please use spaces for indentation.
++ Respect the [code style][code-style].
++ Create minimal diffs - disable on save actions like reformat source code or
+  organize imports. If you feel the source code should be reformatted create a
+  separate PR for this change.
++ Provide JUnit/Invoker tests for your changes and make sure your changes don't break
+  any existing tests by running ```mvn clean -Prun-its verify```.
 
-You can use the `deploySite.sh` or `deploySite.bat` script
-without any profile, the site will be deployed to `https://maven.apache.org/enforcer-archives/enforcer-${project.version}`
+If you plan to contribute on a regular basis, please consider filing a [contributor license agreement](https://www.apache.org/licenses/#clas).
+You can learn more about contributing via GitHub in our [contribution guidelines](CONTRIBUTING.md).
 
-```
-sh ./deploySite.sh -Preporting
-```
+License
+-------
+This code is under the [Apache Licence v2](https://www.apache.org/licenses/LICENSE-2.0).
 
-To deploy main version https://maven.apache.org/enforcer, use
-```
-sh ./deploySite.sh -Preporting -Psite-release
-```
+See the `NOTICE.txt` file for required notices and attributions.
 
-Note you can add arguments to the script to pass your svn credentials:
-```
--Dusername=
--Dpassword=
-```
 
-Workflow for site when releasing
---------------------------------
+Donations
+---------
+You like Apache Maven? Then [donate back to the ASF](https://www.apache.org/foundation/contributing.html) to support the development.
 
-Once release staged, you can publish a staged site.
-```
-cd target/checkout
-sh ./deploySite.sh -Preporting
-```
-content will be in `https://maven.apache.org/enforcer-archives/enforcer-${project.version}`
-
-Once vote passed, redeploy main site:
-
-```
-cd target/checkout (or use the version tag)
-sh ./deploySite.sh -Preporting -Psite-release
-```
 
 License
 -------
@@ -102,3 +92,5 @@ License
 [enforcer-home]: https://maven.apache.org/enforcer/maven-enforcer-plugin/
 [enforcer-download]: https://maven.apache.org/enforcer/download.cgi
 [users-list]: http://maven.apache.org/mail-lists.html
+[dev-ml-list]: https://www.mail-archive.com/dev@maven.apache.org/
+[code-style]: http://maven.apache.org/developers/conventions/code.html
