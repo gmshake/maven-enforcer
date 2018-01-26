@@ -36,7 +36,7 @@ the [Maven User List][users-list].
 
 Where can I get the latest release?
 -----------------------------------
-You can download source and binaries from our [download page][enforcer-download]
+You can download release source from our [download page][enforcer-download].
 
 You can get the Maven Enforcer plugin via the following coordinates from central:
 
@@ -60,7 +60,7 @@ There are some guidelines which will make applying PRs easier for us:
   organize imports. If you feel the source code should be reformatted create a
   separate PR for this change.
 + Provide JUnit/Invoker tests for your changes and make sure your changes don't break
-  any existing tests by running ```mvn clean -Prun-its verify```.
+  any existing tests by running ```mvn -Prun-its verify```.
 
 If you plan to contribute on a regular basis, please consider filing a [contributor license agreement](https://www.apache.org/licenses/#clas).
 You can learn more about contributing via GitHub in our [contribution guidelines](CONTRIBUTING.md).
