@@ -8,10 +8,10 @@ contribution quickly and easily:
  - [ ] Each commit in the pull request should have a meaningful subject line and body.
  - [ ] Format the pull request title like `[MENFORCER-XXX] - Fixes bug in ApproximateQuantiles`,
        where you replace `MENFORCER-XXX` with the appropriate JIRA issue. Best practice
-       is to use the JIRA issue title in the pull reqeust title and in the first line of the 
+       is to use the JIRA issue title in the pull request title and in the first line of the 
        commit message.
  - [ ] Write a pull request description that is detailed enough to understand what the pull request does, how, and why.
- - [ ] Run `mvn -Prun-its clean verify` to make sure basic checks pass. A more thorough check will 
+ - [ ] Run `mvn clean verify` to make sure basic checks pass. A more thorough check will 
        be performed on your pull request automatically.
 
 If your pull request is about ~20 lines of code you don't need to sign an
