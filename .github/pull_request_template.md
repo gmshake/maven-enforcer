@@ -6,10 +6,13 @@ contribution quickly and easily:
        require a JIRA issue.  Your pull request should address just this issue, without 
        pulling in other changes.
  - [ ] Each commit in the pull request should have a meaningful subject line and body.
- - [ ] Format the pull request title like `[MENFORCER-XXX] - Fixes bug in ApproximateQuantiles`, where you replace `MENFORCER-XXX` with 
-       the appropriate JIRA issue.
+ - [ ] Format the pull request title like `[MENFORCER-XXX] - Fixes bug in ApproximateQuantiles`,
+       where you replace `MENFORCER-XXX` with the appropriate JIRA issue. Best practice
+       is to use the JIRA issue title in the pull reqeust title and in the first line of the 
+       commit message.
  - [ ] Write a pull request description that is detailed enough to understand what the pull request does, how, and why.
- - [ ] Run `mvn clean install` to make sure basic checks pass. A more thorough check will be performed on your pull request automatically.
+ - [ ] Run `mvn -Prun-its clean verify` to make sure basic checks pass. A more thorough check will 
+       be performed on your pull request automatically.
 
 If your pull request is about ~20 lines of code you don't need to sign an
 [Individual Contributor License Agreement](https://www.apache.org/licenses/icla.pdf) if you are unsure
