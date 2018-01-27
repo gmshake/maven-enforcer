@@ -11,13 +11,15 @@ contribution quickly and easily:
  - [ ] Write a pull request description that is detailed enough to understand what the pull request does, how, and why.
  - [ ] Run `mvn clean install` to make sure basic checks pass. A more thorough check will be performed on your pull request automatically.
 
-If your pull request has less than ~20 lines of code you don't need to sign an
-[Individual Contributor License Agreement](https://www.apache.org/licenses/icla.pdf)
-but you have to make clear to declare the contribution to be licenses under 
+If your pull request is about ~20 lines of code you don't need to sign an
+[Individual Contributor License Agreement](https://www.apache.org/licenses/icla.pdf) if you are unsure
+please ask on the developers list.
+
+To make clear that your contributions is licenses under 
 the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0)
-which you need to acknowledge by using the following check-box.
+you have to acknowledge this by using the following check-box.
 
  - [ ] I hereby declare this contribution to be licenced under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0)
 
- - [ ] If this contribution is large, please file an Apache [Individual Contributor License Agreement](https://www.apache.org/licenses/icla.pdf).
+ - [ ] In any other case, please file an [Apache Individual Contributor License Agreement](https://www.apache.org/licenses/icla.pdf).
 
